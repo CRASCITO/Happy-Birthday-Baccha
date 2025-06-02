@@ -7,7 +7,7 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #ff758c, #ff7eb3);
       color: white;
       overflow-x: hidden;
@@ -26,17 +26,25 @@
     }
     .gallery {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
       padding: 2rem;
+      max-width: 800px;
+      margin: auto;
     }
     .gallery img {
-      max-width: 100%;
+      width: 100%;
+      max-width: 400px;
       height: auto;
       border-radius: 1rem;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-      width: 300px;
+    }
+    .caption {
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      max-width: 90%;
     }
     .fireworks {
       position: fixed;
@@ -56,13 +64,34 @@
     <h1>🎂 Happy 18th Birthday, Khushi!</h1>
     <p data-aos="fade-up" data-aos-delay="200">Wishing you a magical day filled with love and joy 💖</p>
   </header>  <section class="gallery">
-    <img src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="zoom-in" />
-    <img src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="flip-left" />
-    <img src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="fade-right" />
-    <img src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="fade-left" />
-    <img src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="zoom-out" />
-    <img src="https://i.postimg.cc/kgDb4M1w/Chat-GPT-Image-Mar-30-2025-06-26-35-PM.png" data-aos="flip-up" />
-    <img src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="fade-up" />
+    <div data-aos="zoom-in">
+      <img src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" />
+      <p class="caption" data-aos="fade-up">Happy 18th Birthday Meri Jaan!! ❤️🐥<br>Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀</p>
+    </div>
+    <div data-aos="flip-left">
+      <img src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" />
+      <p class="caption" data-aos="fade-up">Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝</p>
+    </div>
+    <div data-aos="fade-right">
+      <img src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" />
+      <p class="caption" data-aos="fade-up">Tum meri life ka bas ek hissa hi nhi ho, balki meri puri life ho ❤️🫂. Main tumhe promise krta hu chahe kuch bhi ho jaye main hamesha tumhare saath khada rhunga 😋, Tumhare highs me cheer krne ke liye, aur tumhare lows me tumhara haath pakadne ke liye.</p>
+    </div>
+    <div data-aos="fade-left">
+      <img src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" />
+      <p class="caption" data-aos="fade-up">Tumhare sapne ab mere bhi sapne h, aur mai tumhe har kadam par support krunga mera baccha ❤️🫂. Tum bas tension free ho kar apni life enjoy kro aur sara dard mujhe dedo 🧿🐥</p>
+    </div>
+    <div data-aos="zoom-out">
+      <img src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" />
+      <p class="caption" data-aos="fade-up">Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦</p>
+    </div>
+    <div data-aos="flip-up">
+      <img src="https://i.postimg.cc/kgDb4M1w/Chat-GPT-Image-Mar-30-2025-06-26-35-PM.png" />
+      <p class="caption" data-aos="fade-up">Tum sabse special ho, aur mai hamesha tumhara hu ❤️🐥.<br>Hamesha means after my life too 👻.</p>
+    </div>
+    <div data-aos="fade-up">
+      <img src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" />
+      <p class="caption" data-aos="fade-up">I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦</p>
+    </div>
   </section>  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init({
       duration: 1000,
