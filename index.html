@@ -4,12 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy 18th Birthday Khushi</title>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #ff5e78, #ff8a9c);
+      background: linear-gradient(to bottom right, #ff4e50, #ff94a9);
       color: #000;
       overflow-x: hidden;
     }
@@ -31,19 +30,60 @@
       margin-bottom: 20px;
       color: #000;
     }
-    .highlight {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2.5rem;
-      color: #ff0055;
+    .special {
+      font-size: 2rem;
+      font-family: 'Brush Script MT', cursive;
+      font-weight: bold;
       text-align: center;
-      margin-bottom: 20px;
     }
-    .highlight-love {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2.5rem;
-      color: #ff4081;
+    .birthday {
+      color: #ff2e63;
+      animation: pulse 2s infinite;
+    }
+    .love {
+      color: #8e44ad;
+      animation: shake 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    @keyframes shake {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(1deg); }
+      50% { transform: rotate(-1deg); }
+      75% { transform: rotate(1deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .reveal-button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background-color: #fff;
+      border: 2px solid #ff4e50;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+      color: #ff4e50;
+      transition: all 0.3s ease;
+    }
+    .reveal-button:hover {
+      background-color: #ff4e50;
+      color: #fff;
+    }
+    .secret-message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: white;
+      background-color: #00000090;
+      padding: 15px;
+      border-radius: 10px;
       text-align: center;
-      margin-bottom: 20px;
     }
     .fireworks {
       position: fixed;
@@ -54,66 +94,47 @@
       pointer-events: none;
       z-index: 0;
     }
-    .secret-container {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .secret-message {
-      display: none;
-      margin-top: 20px;
-      font-size: 1.3rem;
-      background: white;
-      padding: 15px;
-      border-radius: 12px;
-    }
-    .reveal-button {
-      background: #ff4e50;
-      border: none;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .reveal-button:hover {
-      background: #d7373a;
-    }
   </style>
 </head>
 <body>
   <canvas class="fireworks"></canvas>
-  <div class="container"><div class="highlight" data-aos="zoom-in">Happy 18th Birthday Meri Jaan!! ❤️🐥</div>
-<div class="message" data-aos="fade-up">
-  Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀
+  <div class="container"><div class="message special birthday" data-aos="zoom-in">
+  Happy 18th Birthday Meri Jaan!! ❤️🐥
 </div>
-<img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="fade-left">
+<img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="fade-up">
 
-<div class="message" data-aos="fade-up">
-  Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝
+<div class="message" data-aos="fade-left">
+  Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀
 </div>
 <img class="image" src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="flip-left">
 
-<div class="message" data-aos="zoom-in-up">
+<div class="message" data-aos="fade-right">
+  Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝
+</div>
+<img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="zoom-in">
+
+<div class="message" data-aos="fade-left">
   Tum meri life ka bas ek hissa hi nhi ho, balki meri puri life ho ❤️🫂. Main tumhe promise krta hu chahe kuch bhi ho jaye main hamesha tumhare saath khada rhunga 😋, Tumhare highs me cheer krne ke liye, aur tumhare lows me tumhara haath pakadne ke liye. Tumhare sapne ab mere bhi sapne h, aur mai tumhe har kadam par support krunga mera baccha ❤️🫂. Tum bas tension free ho kar apni life enjoy kro aur sara dard mujhe dedo 🧿🐥
 </div>
-<img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="flip-right">
+<img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="fade-up-right">
 
-<div class="message" data-aos="fade-up">
+<div class="message" data-aos="fade-right">
   Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦
 </div>
-<img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="zoom-in-right">
+<img class="image" src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="flip-up">
 
-<div class="message" data-aos="flip-down">
+<div class="message" data-aos="fade-left">
   Tum sabse special ho, aur mai hamesha tumhara hu ❤️🐥. Hamesha means after my life too 👻.
 </div>
 <img class="image" src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="zoom-in">
 
-<div class="highlight-love" data-aos="flip-left">I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦</div>
+<div class="message special love" data-aos="flip-left">
+  I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦
+</div>
 
-<div class="secret-container" data-aos="fade-up">
-  <button class="reveal-button" onclick="document.getElementById('secret').style.display='block'">Tap to See More 💌</button>
-  <div id="secret" class="secret-message">Check your Snapchat's My Eyes Only section 😉</div>
+<button class="reveal-button" onclick="document.getElementById('secret').style.display='block';" data-aos="fade-up">Tap to See More</button>
+<div id="secret" class="secret-message" data-aos="zoom-in">
+  Check your Snapchat's My Eyes Only section 💖
 </div>
 
   </div>  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>  <script>
