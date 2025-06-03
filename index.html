@@ -1,14 +1,15 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy 18th Birthday Khushi</title>
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #e91e63, #ff6f61);
+      background: linear-gradient(to bottom right, #ff4e91, #ff7997);
       color: #000;
       overflow-x: hidden;
     }
@@ -16,32 +17,56 @@
       max-width: 700px;
       margin: auto;
       padding: 20px;
-      position: relative;
-      z-index: 1;
     }
     .image {
       width: 100%;
       border-radius: 20px;
-      margin: 20px 0 40px;
+      margin-bottom: 40px;
     }
     .message {
       font-size: 1.2rem;
-      background-color: #ffffff;
+      background-color: white;
       border-radius: 15px;
       padding: 20px;
-      margin: 30px 0;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      color: #000;
     }
     .highlight {
+      font-family: 'Great Vibes', cursive;
       font-size: 2rem;
-      font-weight: bold;
+      color: #ff0066;
       text-align: center;
-      background: linear-gradient(90deg, #ff4081, #f50057);
-      color: white;
-      border-radius: 20px;
-      padding: 30px;
-      margin-top: 40px;
-      box-shadow: 0 0 20px rgba(255,64,129,0.5);
+      animation: pulse 2s infinite;
+    }
+    .highlight.love {
+      color: #cc00cc;
+      font-size: 2.2rem;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .secret-toggle {
+      background-color: #fff;
+      border: 2px solid #ff4e91;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .secret-toggle:hover {
+      background-color: #ffe6f0;
+    }
+    .secret-message {
+      display: none;
+      margin-top: 15px;
+      background: white;
+      padding: 15px;
+      border-radius: 15px;
+      font-size: 1.2rem;
     }
     .fireworks {
       position: fixed;
@@ -54,83 +79,97 @@
     }
   </style>
 </head>
-<body><canvas class="fireworks"></canvas>
+<body>
+  <canvas class="fireworks"></canvas>
+  <div class="container"><div class="highlight" data-aos="zoom-in">Happy 18th Birthday Meri Jaan!! ❤️🐥</div>
+<img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="fade-up">
 
-<div class="container">
-  <div class="highlight" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
-    Happy 18th Birthday Meri Jaan!! ❤️🐥
-  </div>
-  <img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="flip-left" />  <div class="message" data-aos="fade-right">
-    Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀
-  </div>
-  <img class="image" src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="zoom-in-up" />  <div class="message" data-aos="fade-up-right">
-    Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝
-  </div>
-  <img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="fade-up-left" />  <div class="message" data-aos="flip-up">
-    Tum meri life ka bas ek hissa hi nhi ho, balki meri puri life ho ❤️🫂. Main tumhe promise krta hu chahe kuch bhi ho jaye main hamesha tumhare saath khada rhunga 😋, Tumhare highs me cheer krne ke liye, aur tumhare lows me tumhara haath pakadne ke liye. Tumhare sapne ab mere bhi sapne h, aur mai tumhe har kadam par support krunga mera baccha ❤️🫂. Tum bas tension free ho kar apni life enjoy kro aur sara dard mujhe dedo 🧿🐥
-  </div>
-  <img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="flip-right" />  <div class="message" data-aos="zoom-out">
-    Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦
-  </div>
-  <img class="image" src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="fade-up" />  <div class="message" data-aos="fade-up">
-    Tum sabse special ho, aur mai hamesha tumhara hu ❤️🐥. Hamesha means after my life too 👻.
-  </div>
-  <img class="image" src="https://i.postimg.cc/kgDb4M1w/Chat-GPT-Image-Mar-30-2025-06-26-35-PM.png" data-aos="flip-down" />  <div class="highlight" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1800">
-    I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦
-  </div>
-  <img class="image" src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="zoom-out-up" />
-</div><script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script><script>
-  AOS.init();
-</script><script>
-  const canvas = document.querySelector(".fireworks");
-  const ctx = canvas.getContext("2d");
-  let fireworks = [];
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+<div class="message" data-aos="flip-left">
+  Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀
+</div>
+<img class="image" src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="zoom-in-up">
 
-  function random(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+<div class="message" data-aos="fade-right">
+  Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝
+</div>
+<img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="flip-up">
 
-  function Firework() {
-    this.x = random(0, canvas.width);
-    this.y = canvas.height;
-    this.radius = 2;
-    this.color = `hsl(${Math.random() * 360}, 100%, 60%)`;
-    this.speedY = random(-10, -5);
-    this.alpha = 1;
-  }
+<div class="message" data-aos="fade-left">
+  Tum meri life ka bas ek hissa hi nhi ho, balki meri puri life ho ❤️🫂. Main tumhe promise krta hu chahe kuch bhi ho jaye main hamesha tumhare saath khada rhunga 😋, Tumhare highs me cheer krne ke liye, aur tumhare lows me tumhara haath pakadne ke liye. Tumhare sapne ab mere bhi sapne h, aur mai tumhe har kadam par support krunga mera baccha ❤️🫂. Tum bas tension free ho kar apni life enjoy kro aur sara dard mujhe dedo 🧿🐥
+</div>
+<img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="zoom-in">
 
-  Firework.prototype.update = function () {
-    this.y += this.speedY;
-    this.alpha -= 0.01;
-  };
+<div class="message" data-aos="flip-left">
+  Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦
+</div>
+<img class="image" src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="fade-down">
 
-  Firework.prototype.draw = function () {
-    ctx.globalAlpha = this.alpha;
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-    ctx.fillStyle = this.color;
-    ctx.fill();
-    ctx.globalAlpha = 1;
-  };
+<div class="message" data-aos="fade-right">
+  Tum sabse special ho, aur mai hamesha tumhara hu ❤️🐥. Hamesha means after my life too 👻.
+</div>
+<img class="image" src="https://i.postimg.cc/kgDb4M1w/Chat-GPT-Image-Mar-30-2025-06-26-35-PM.png" data-aos="flip-up">
 
-  function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (Math.random() < 0.05) fireworks.push(new Firework());
-    fireworks.forEach((fw, index) => {
-      fw.update();
-      fw.draw();
-      if (fw.alpha <= 0) fireworks.splice(index, 1);
-    });
-    requestAnimationFrame(animate);
-  }
+<div class="highlight love" data-aos="zoom-in-left">
+  I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦
+</div>
+<img class="image" src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="zoom-out">
 
-  animate();
+<!-- Tap to reveal section -->
+<div class="secret-toggle" onclick="revealSecret()" data-aos="fade-up">
+  Tap to See More 💌
+</div>
+<div class="secret-message" id="secret-message" data-aos="zoom-in">
+  Check your Snapchat's My Eyes Only section 😉
+</div>
 
-  window.addEventListener("resize", () => {
+  </div>  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>  <script>
+    AOS.init();
+    function revealSecret() {
+      document.getElementById('secret-message').style.display = 'block';
+    }
+  </script>  <script>
+    const canvas = document.querySelector(".fireworks");
+    const ctx = canvas.getContext("2d");
+    let fireworks = [];
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-  });
-</script></body>
+    function random(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+    function Firework() {
+      this.x = random(0, canvas.width);
+      this.y = canvas.height;
+      this.radius = 2;
+      this.color = `hsl(${Math.random() * 360}, 100%, 60%)`;
+      this.speedY = random(-10, -5);
+      this.alpha = 1;
+    }
+    Firework.prototype.update = function () {
+      this.y += this.speedY;
+      this.alpha -= 0.01;
+    };
+    Firework.prototype.draw = function () {
+      ctx.globalAlpha = this.alpha;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    };
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      if (Math.random() < 0.05) fireworks.push(new Firework());
+      fireworks.forEach((fw, index) => {
+        fw.update();
+        fw.draw();
+        if (fw.alpha <= 0) fireworks.splice(index, 1);
+      });
+      requestAnimationFrame(animate);
+    }
+    animate();
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+  </script></body>
 </html>
