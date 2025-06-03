@@ -8,9 +8,10 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #ff6f91, #ff9472);
+      background: linear-gradient(135deg, #ff4e8a, #ff7eb9);
       color: #000;
       overflow-x: hidden;
+      text-align: center;
     }
     .container {
       max-width: 700px;
@@ -33,36 +34,14 @@
     .highlight {
       font-size: 2rem;
       font-weight: bold;
-      color: #ff0055;
+      font-family: 'Cursive', cursive;
+      color: #ff3366;
+    }
+    .highlight2 {
+      font-size: 2rem;
+      font-weight: bold;
       font-family: 'Brush Script MT', cursive;
-    }
-    .secret-button {
-      display: block;
-      margin: 40px auto;
-      padding: 15px 30px;
-      background-color: #fff;
-      color: #ff0055;
-      font-weight: bold;
-      border: 2px solid #ff0055;
-      border-radius: 10px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-    .secret-button:hover {
-      background-color: #ff0055;
-      color: #fff;
-      transform: scale(1.05);
-    }
-    .secret-message {
-      display: none;
-      margin-top: 20px;
-      padding: 20px;
-      background-color: white;
-      border-radius: 10px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.1rem;
+      color: #ff0066;
     }
     .fireworks {
       position: fixed;
@@ -73,53 +52,74 @@
       pointer-events: none;
       z-index: 0;
     }
+    #secretButton {
+      margin-top: 30px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: #ff3366;
+      font-weight: bold;
+    }
+    #secretMessage {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.2rem;
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      color: #000;
+    }
   </style>
 </head>
 <body>
   <canvas class="fireworks"></canvas>
-  <div class="container"><div class="message" data-aos="fade-down">
-  <span class="highlight" data-aos="zoom-in">Happy 18th Birthday Meri Jaan!! ❤️🐥</span>
+  <div class="container"><div class="message" data-aos="zoom-in">
+  <span class="highlight">Happy 18th Birthday Meri Jaan!! ❤️🐥</span>
 </div>
-<img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="fade-up">
+<img class="image" src="https://i.postimg.cc/3rCpfc0j/Chat-GPT-Image-Mar-30-2025-at-05-56-42-PM.png" data-aos="flip-left">
 
-<div class="message" data-aos="fade-up-right">
+<div class="message" data-aos="fade-up">
   Aaj ka din mere liye sirf aapka birthday nhi h, ye wo din h jab meri zindagi ki sabse khoobsurat ladki iss khoobsurat duniya me aayi thi — Aap 🫀
 </div>
-<img class="image" src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="fade-up">
+<img class="image" src="https://i.postimg.cc/fbmktVx7/Chat-GPT-Image-Mar-30-2025-03-47-49-PM.png" data-aos="fade-right">
 
 <div class="message" data-aos="fade-left">
   Tumne apni life ke 18 saal badi jaldi beeta liye aur ab to dheere dheere self dependent bhi bante jaoge 😋. Bakio ke liye bhale hi "adult" ho gye ho, lekin meri nazro me hamesha wahi sweet, caring, aur thodi si naughty ladki rahoge jisse mai har din aur zyada pyaar karta ja rha hu 😝
 </div>
-<img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="fade-up">
+<img class="image" src="https://i.postimg.cc/bNyn7917/Chat-GPT-Image-Mar-30-2025-03-48-17-PM.png" data-aos="zoom-in-up">
 
-<div class="message" data-aos="zoom-in-up">
+<div class="message" data-aos="fade-up-right">
   Tum meri life ka bas ek hissa hi nhi ho, balki meri puri life ho ❤️🫂. Main tumhe promise krta hu chahe kuch bhi ho jaye main hamesha tumhare saath khada rhunga 😋, Tumhare highs me cheer krne ke liye, aur tumhare lows me tumhara haath pakadne ke liye. Tumhare sapne ab mere bhi sapne h, aur mai tumhe har kadam par support krunga mera baccha ❤️🫂. Tum bas tension free ho kar apni life enjoy kro aur sara dard mujhe dedo 🧿🐥
 </div>
-<img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="fade-up">
-
-<div class="message" data-aos="flip-left">
-  Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦
-</div>
-<img class="image" src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="fade-up">
+<img class="image" src="https://i.postimg.cc/63KqdB0k/Chat-GPT-Image-Mar-30-2025-04-13-31-PM.png" data-aos="fade-in">
 
 <div class="message" data-aos="fade-down-left">
+  Tumhe aaj ke din bas birthday ki nhi, balki ek nyi journey ki shuruaat bhi mubarak ho. Tumhara 18th year khushiyo se bhara ho, adventures se bhara ho, aur uss pyaar se bhi jo tum deserve krte ho — including mera wala pyaar 🫦
+</div>
+<img class="image" src="https://i.postimg.cc/HkfCy32R/Chat-GPT-Image-Mar-30-2025-06-14-42-PM.png" data-aos="flip-up">
+
+<div class="message" data-aos="zoom-in">
   Tum sabse special ho, aur mai hamesha tumhara hu ❤️🐥. Hamesha means after my life too 👻.
 </div>
-<img class="image" src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="fade-up">
+<img class="image" src="https://i.postimg.cc/gkghmLDn/Chat-GPT-Image-Mar-31-2025-09-40-04-AM.png" data-aos="fade-in">
 
-<div class="message" data-aos="fade-up">
-  <span class="highlight" data-aos="flip-up">I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗🫦</span>
+<div class="message" data-aos="zoom-in">
+  <span class="highlight2">I Love You Moree Than Anyone Meri Khushi ❤️🫂🐥🤭🧿🫀🤗</span>
 </div>
 
-<button class="secret-button" onclick="document.getElementById('secret').style.display='block'">
-  Tap to See More
-</button>
-<div id="secret" class="secret-message">
-  Check your Snapchat's My Eyes Only section 👀😉
-</div>
+<button id="secretButton">Tap to See More 🫦</button>
+<div id="secretMessage">Check your Snapchat's My Eyes Only section 😉</div>
 
   </div>  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>  <script>
     AOS.init();
+    document.getElementById('secretButton').onclick = function () {
+      const secret = document.getElementById('secretMessage');
+      secret.style.display = 'block';
+      secret.scrollIntoView({ behavior: 'smooth' });
+    };
   </script>  <script>
     const canvas = document.querySelector(".fireworks");
     const ctx = canvas.getContext("2d");
